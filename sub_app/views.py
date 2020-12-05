@@ -33,4 +33,4 @@ class call_model(APIView):
                   # return response
                   return JsonResponse(response)
             except :
-                  return JsonResponse({'result':'http://127.0.0.1:8000/?question='})
+                  return JsonResponse({'result':'https://austimchatbot.herokuapp.com/?question='})
