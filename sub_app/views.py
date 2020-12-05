@@ -32,5 +32,5 @@ class call_model(APIView):
                   response = {'result': out.to_list()[0][0]}
                   # return response
                   return JsonResponse(response)
-            except :
-                  return JsonResponse({'result':'https://austimchatbot.herokuapp.com/?question='})
+            except Exception as e:
+                  return JsonResponse({'result':e})
