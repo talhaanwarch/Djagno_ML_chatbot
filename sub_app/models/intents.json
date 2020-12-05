@@ -1,0 +1,200 @@
+{
+	"intents": [{
+			"tag": "definition",
+			"patterns": ["How you define Autism", "What is Autism?", "Can you please tell me what Autism is?", "How can I tell if my son has autism?", "How can I tell if my child has autism?"],
+			"responses": ["Autism is a symptom that develops in early of childhood. They have impairment in ability to communicate, delayed language and restricted patterns of behavior", "Autism is a complex, lifelong developmental disability that typically appears during early childhood and can impact a person's social skills, communication, relationships, and self-regulation", "Autism spectrum disorder (ASD) is a developmental disorder that affects communication and behavior. Although autism can be diagnosed at any age, it is said to be a developmental disorder because symptoms generally appear in the first two years of life."],
+			"context_set": ""
+		},
+		{
+			"tag": "types",
+			"patterns": ["How many types of autism?", "What are the different types of autism?", "How many types of autism spectrum disorders are there?", "What are the 3 main characteristics of autism?"],
+			"responses": ["There are many types of autism which are Asperger Syndrome (AS), Kanner Syndrome, Childhood Disintegrative Disorder (CDD) and Rett Syndrome.", "There five different types of autism: autistic disorder, pervasive developmental disorder-not otherwise specified (PDD-NOS), Asperger syndrome, Childhood Disintegrative Disorder and Rett Syndrome (a rare genetic disorder)", "They included autistic disorder, childhood disintegrative disorder, pervasive developmental disorder-not otherwise specified (PDD-NOS) and Asperger syndrome."],
+			"context_set": ""
+		},
+		{
+			"tag": "asperger",
+			"patterns": ["What is Asperger Syndrome", "What is Asperger’s in simple terms?", "What are the characteristics of a person with Asperger’s?", "how you define Asperger"],
+			"responses": ["Asperger's syndrome (AS) is one of a group of neurological disorders known as autism spectrum disorders (ASDs). AS is considered to be on the mild end of the spectrum. People with AS exhibit three primary symptoms: having difficulty with social interaction. engaging in repetitive behavior.",
+				"Asperger syndrome (AS), also known as Asperger's, is a neurodevelopmental disorder characterized by significant difficulties in social interaction and nonverbal communication, along with restricted and repetitive patterns of behavior and interests.",
+				"Asperger syndrome: An autistic disorder most notable for the often-great discrepancy between the intellectual and social abilities of those who have it. Asperger syndrome is a pervasive developmental disorder that is characterized by an inability to understand how to interact socially."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "kanner",
+			"patterns": ["What is Kanner Syndrome", "What is the issue with people suffering from Kanner Syndrome", "what’s is Kanner Syndrome disability"],
+			"responses": ["People suffering with Kanner Syndrome want everything to be the same all the time including their routine, clothing, food, television show or movie", "Do same routine and activities and Limited emotional connection", "Child suffering from Kanner Syndrome lack the abilities of social understanding"],
+			"context_set": ""
+		},
+		{
+			"tag": "childhood",
+			"patterns": ["What is Childhood Disintegrative Disorder ", "whats is Childhood Disintegrative Disorder in simple terms", "what do you recommend about Disintegrative Disorder?"],
+			"responses": ["Childhood disintegrative disorder is a condition in which children develop normally through age 3 or 4. Then, over a few months, they lose language, motor, social, and other skills that they already learned",
+				"Child suffering from CDD grown like normal children tilll 3 or 4 years. after that they start loosing the abilities to learn new things and start forgetting the old ones", "Childhood disintegrative (or disintegration) disorder, also known as Heller syndrome is characterized by a loss of previously acquired language and social skills"
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "rett",
+			"patterns": ["What is Rett s Syndrome", "How females suffered from Rett syndrome", "Can you explain Rett Syndrome"],
+			"responses": ["Rett syndrome is a rare genetic disorder that affects brain development, resulting in severe mental and physical disability. It is estimated to affect about 1 in 12,000 girls born each year and is only rarely seen in boys.",
+				"One in 10,000 females suffers from Rett Syndrome, leaving them aware and alert but often without the ability to express themselves in any way. Without the ability to communicate through speech or hand movement, Rett Syndrome patients have not been able to demonstrate their intellectual abilities",
+				"Rett syndrome is a progressive neurodevelopmental disorder that almost exclusively affects females."
+			],
+			"context_set": ""
+		},
+		{
+			"tag": "rett learning",
+			"patterns": ["What is Rett s learning style", "How learning style for Rett’s Syndrome", "Can you explain learning style for Rett Syndrome"],
+			"responses": ["Learning style for Rett syndrome is in Kinetic Learner.", "kinetic learner must use repetition.", "Kinetic learner is use physical movement", "Physical activities example is videos."],
+			"context_set": ""
+		},
+
+		{
+			"tag": "asperger’s learning",
+			"patterns": ["What is Asperger’s learning style", "How learning style for Asperger’s Syndrome", "Can you explain learning style for Asperger’s Syndrome"],
+			"responses": ["Learning style for Rett syndrome is in Visual Learner.",
+				" Visual learner is learning with Media, games, simulation presentation, diagram and video ", "Visual learning is Highly visual elements, Games, simulations presentation, visual representations and diagrams example Animations, graphics, pictures, videos, eBook, slideshow, web pages and simulation."
+			],
+
+			"context_set": ""
+		},
+		{
+			"tag": "kanner learning",
+			"patterns": ["What is kanner learning style", "How learning style for kanner’s Syndrome", "Can you explain learning style for kanner’s Syndrome"],
+			"responses": ["Learning style for kanner’s syndrome is in Visual Learner.",
+				" Visual learner is learning with Media, games, simulation presentation, diagram and video ", "Visual learning is Highly visual elements, Games, simulations presentation, visual representations and diagrams example Animations, graphics, pictures, videos, eBook, slideshow, web pages and simulation."
+			],
+
+
+			"context_set": ""
+		},
+		{
+			"tag": "childhood learning",
+			"patterns": ["What is childhood disintegrative disorder learning style", "How learning style for childhood disintegrative disorder Syndrome", "Can you explain learning style for childhood disintegrative disorder Syndrome"],
+			"responses": ["Learning style for childhood disintegrative disorder  is in Visual Learner and Aural.",
+				" Visual learner and Aural Learner is learning with Media, games, simulation presentation, diagram and video, Audio and music", "Visual learning is Highly visual elements, Games, simulations presentation, visual representations and diagrams example Animations, graphics, pictures, videos, eBook, slideshow, web pages and simulation.", "Aural Learner is Interest in sounds, Storytelling, music and audio example Audio, podcast and videos."
+			],
+
+			"context_set": ""
+		},
+		{
+			"tag": "kanner disability",
+			"patterns": ["What is kanner disability", "How disabilitiy for kanner’s Syndrome", "Can you explain disability for kanner’s Syndrome"],
+			"responses": ["disability for kanner’s syndrome is lack of social understanding."],
+			"context_set": ""
+		},
+		{
+			"tag": "aspergers disability",
+			"patterns": ["What is aspergers disability", "How disabilitiy for aspergers Syndrome", "Can you explain disability for aspergers Syndrome"],
+			"responses": ["disability for aspergers syndrome is lack of social understanding."],
+			"context_set": ""
+		}, {
+			"tag": "rett disability",
+			"patterns": ["What is Rett disability", "How disabilitiy for Rett Syndrome", "Can you explain disability for Rett Syndrome"],
+			"responses": ["disability for Rett syndrome is cognitive impairment and non-verbal skilss."],
+			"context_set": ""
+		},
+		{
+			"tag": "childhood disability",
+			"patterns": ["What is childhood disintegrative disorder disability", "How disability for childhood disintegrative disorder Syndrome", "Can you explain disability for childhood disintegrative disorder Syndrome”, “how can we know childhood disintegrative disorder syndrome?"],
+			"responses": ["disability for Rett syndrome is regression skills."],
+			"context_set": ""
+		},
+		{
+			"tag": "kanner’s behavior",
+			"patterns": ["What is Kanner’s behavior", "How behavior for Kanner’s disorder Syndrome", "Can you explain behavior for Kanner’s disorder Syndrome"],
+			"responses": ["They want everything to be the same all the time including their routine, clothing, food, television show or movie."],
+			"context_set": ""
+		},
+		{
+			"tag": "childhood behaviour",
+			"patterns": ["What is childhood disintegrative disorder behavior", "How behaviour for childhood disintegrative disorder Syndrome", "Can you explain behaviour for childhood disintegrative disorder Syndrome"],
+			"responses": ["they do not have interest in play.  They also have a problem with the motor skills that they have mastered and they will stop talking."],
+			"context_set": ""
+		},
+		{
+			"tag": "retts behaviour",
+			"patterns": ["What is Retts behavior", "How behavior for Retss Syndrome", "Can you explain behavior for Retts Syndrome"],
+			"responses": ["These patients often have a problem with their muscle and tend to make repetitive hand motions. They are almost always retarded to some degree and have a low functioning, and they will need care for most of their lives."],
+			"context_set": ""
+		},
+		{
+			"tag": "therapy",
+			"patterns": ["How many types of therapy?", "What are the different types of therapy?", "How many types of therapy are there?", "What are the 6 mains of therapy?"],
+			"responses": ["For now, we have six categories of therapy as Occupational Therapy, Speech Therapy, Applied Behavior Analysis (ABA), Social Skills Class, Therapeutic Horseback Riding, and Picture Exchange Communication System (PECS)."],
+			"context_set": ""
+		},
+		{
+			"tag": "occupational",
+			"patterns": ["What is Occupational therapy?", "How occupational therapy?", "Can you explain occupational therapy?”. “what is learning for occupational therapy?”, “what the focus in occupational therapy?"],
+			"responses": ["like learning to button a shirt or hold a fork properly, work or play. The focus depends on the child’s needs and goals."],
+			"context_set": ""
+		},
+		{
+			"tag": "speech",
+			"patterns": ["What is speech therapy", "How is speech therapy", "Can you explain speech therapy", "what is speech therapy activity?", "what is speech therapy teaching to kids?"],
+			"responses": ["Will helps children with speaking. It can involve non-verbal skills, like making eye contact, taking turns in a conversation, and using and understanding gestures. It might also teach kids to express themselves using picture symbols, sign language, or computers."],
+			"context_set": ""
+		},
+		{
+			"tag": "aba",
+			"patterns": ["What is Applied Behavior Analysis (ABA)?", "How is Applied Behavior Analysis (ABA)?", "Can you explain Applied Behavior Analysis (ABA)?", "what is ABA activity ?"],
+			"responses": ["This type of therapy uses rewards to reinforce positive behaviors and teach new skills. Parents and other caregivers are trained so they can give the autistic child moment-by-moment feedback."],
+			"context_set": ""
+		},
+		{
+			"tag": "social",
+			"patterns": ["What is social skills class?", "How is social skill class?", "Can you explain social skills class?", "What social skills activity ?", "What’ s social skills aim ?"],
+			"responses": ["This is group or one-on-one instruction at home, in school, or in the community. The aim is to improve how a child interacts socially and forms bonds with others."],
+			"context_set": ""
+		},
+		{
+			"tag": "therapeutic",
+			"patterns": ["What is Therapeutic Horseback Riding,", "How is Therapeutic Horseback Riding ", "Can you explain Therapeutic Horseback Riding", "what is Therapeutic Horseback Riding activity ? ", "what is important of physical therapy ?"],
+			"responses": ["Like a child rides a horse under the guidance of a therapist. Riding is a form of physical therapy because the rider needs to react and adjust to the movements of the animal."],
+			"context_set": ""
+		},
+		{
+			"tag": "picture",
+			"patterns": ["What is Picture Exchange Communication System (PECS),", "How is Picture Exchange Communication System (PECS)", "Can you explain Picture Exchange Communication System (PECS)", "what is Picture Exchange Communication System(PECS) activity ? "],
+			"responses": ["The system is designed for those who don’t speak, can’t understand, or are difficult to understand. PECS may not work for kids who don’t try to communicate or aren’t interested in particular objects, activities or food."],
+			"context_set": ""
+		},
+		{
+			"tag": "symptom",
+			"patterns": ["What is the symptom of autism,", "How is the symptom of autism)", "Can you explain how symptom of autism", "how can we know the symptom of autism ? "],
+			"responses": ["Delayed language development.", "Repetitive behaviors (flapping, rocking, spinning, etc.), loss of previously acquired speech, babbling or social skills, Avoidance of eye contact, Social Withdrawal, Problems with Two - Way Conversation"],
+			"context_set": ""
+		},
+		{
+			"tag": "social-related",
+			"patterns": ["What is the social-related problems,", "How is the social-related o autism problems", "Can you explain the social related problem on autism"],
+			"responses": ["Doesn't keep eye contact or makes very little eye contact.", "Doesn’t 't respond to a teacher's smile or other facial expressions", "Unable to make friends or is uninterested in making friends", "Doesn 't look at objects or events a teachers is looking at or pointing to"],
+			"context_set": ""
+		},
+		{
+			"tag": "repetitive",
+			"patterns": ["What is the repetitive behavior,", "How is repetitive behavior on autism", "Can you explain the repetitive behavior on autism"],
+			"responses": ["Rocks, spins, sways, twirls finger, walks on toes for a long time, or flaps hands (called stereotypic behavior ).", "Likes routines, order, and rituals;has difficulty with change or transition from one activity to another", "Obsessed with a few or unusual activities, doing them repeatedly during the day"],
+
+			"context_set": ""
+		},
+		{
+			"tag": "speech",
+			"patterns": ["What is the speech and language problems?", "How is the speech and language problems on autism?", "Can you explain the speech and language problems?", "how can we know the speech problems ? "],
+			"responses": ["Repeats exactly what others say without understanding the meaning (often called parroting or echoing)", "Refers to self as you and others as I, and may mix up pronouns", "Doesn’t 't start or can’t continue a conversation"],
+
+			"context_set": ""
+		},
+
+		{
+			"tag": "medical",
+			"patterns": ["What is the medical difficulty,", "How is the medical difficulty on autism", "Can you explain the medical difficulty on autism", "what the problem of medical on autism ? "],
+			"responses": ["Irritability", "Aggression ", "Anxiety and depression", "Hyperactivity"],
+
+			"context_set": ""
+		}
+
+	]
+}
