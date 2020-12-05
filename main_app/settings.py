@@ -25,7 +25,7 @@ SECRET_KEY = 'f6%15ynbggvin-2a2jfhl==1s62io^uo8fmjbpt=yka8326e_i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'main_app.urls'
@@ -120,3 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MODELS = os.path.join(BASE_DIR, 'sub_app/models')
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+STATIC_URL = '/static/'  
+STATIC_ROOT = os.path.join(BASE_DIR, 'sub_app','static') 
