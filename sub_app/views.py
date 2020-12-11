@@ -37,4 +37,4 @@ class call_model(APIView):
                   # return response
                   return JsonResponse(response)
             except :
-                  return JsonResponse({'result':"https://autiskabot.herokuapp.com/?question=PASS_HERE"})
+                  return JsonResponse({'result':"Please ask a question."})
