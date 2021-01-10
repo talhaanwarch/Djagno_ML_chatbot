@@ -32,8 +32,8 @@ class call_model(APIView):
 
                   out=df['responses'][df['tag']==prediction[0]]
                   # build response
-                  print(random.choice(out.to_list()))
-                  response = {'result': random.choice(out.to_list())[0]}
+                  print(random.choice(out.to_list()[0]))
+                  response = {'result': random.choice(out.to_list()[0])}
                   # return response
                   return JsonResponse(response)
             except :
