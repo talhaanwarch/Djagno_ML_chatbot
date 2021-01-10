@@ -10,7 +10,7 @@ from django.conf import settings
 import pandas as pd
 from nltk.corpus import stopwords 
 stop_words = set(stopwords.words('english'))  
-
+import random
 lemmatizer = WordNetLemmatizer()
 class call_model(APIView):
     def get(self,request):
@@ -32,8 +32,8 @@ class call_model(APIView):
 
                   out=df['responses'][df['tag']==prediction[0]]
                   # build response
-                  print(out.to_list())
-                  response = {'result': out.to_list()[0][0]}
+                  print(random.choice(out.to_list()))
+                  response = {'result': random.choice(out.to_list())[0]}
                   # return response
                   return JsonResponse(response)
             except :
