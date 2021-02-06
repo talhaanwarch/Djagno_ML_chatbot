@@ -22,7 +22,8 @@ Add the question to baseline such as
 https://autiskabot.herokuapp.com/api/?question=What is autism 
 It will generate result like this
 ```
-{"result": "Autism is a complex, lifelong developmental disability that typically appears during early childhood and can impact a person's social skills, communication, relationships, and self-regulation"}
+{"result": "Autism is a complex, lifelong developmental disability that typically appears during early 
+childhood and can impact a person's social skills, communication, relationships, and self-regulation"}
 ```
 
 ## Three important .txt files
@@ -30,3 +31,5 @@ It will generate result like this
 * requirements.txt->> python packages required
 * nltk.txt->> nltk corpus used, herko required this for working
 
+# API flow
+![pipe line](https://github.com/talhaanwarch/djagno_chat_bot_api/blob/main/flow.jpg)
