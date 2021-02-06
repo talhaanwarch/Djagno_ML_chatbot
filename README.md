@@ -33,3 +33,11 @@ childhood and can impact a person's social skills, communication, relationships,
 
 # API flow
 ![pipe line](https://github.com/talhaanwarch/djagno_chat_bot_api/blob/main/flow.jpg)
+
+# How to use it
+Download this repository locally.  
+Then in code_ml change the intent.json file according to your QnAs.   
+Retrain the model using code.py and upload back to github.   
+Connect heroku with github and simply in one click you can upload it.  
+ 
+
