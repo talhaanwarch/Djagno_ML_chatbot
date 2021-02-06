@@ -1,1 +1,19 @@
 # djagno_chat_bot_api
+
+Trained a chatbot to know information about autism. 
+The code can be divided into two parts
+* Machine Learnign Part
+* Django Api Part
+
+The machine learning part is present in [code_ml](https://github.com/talhaanwarch/djagno_chat_bot_api/tree/main/code_ml) whereas rest of files are django api files.
+## Machine Learning part
+[intents.json](https://github.com/talhaanwarch/djagno_chat_bot_api/blob/main/code_ml/intents.json) file contain the question and their responses. You can edit it according to your need.  
+[code.py](https://github.com/talhaanwarch/djagno_chat_bot_api/blob/main/code_ml/code.py) contains the ML alogrithm in which features are extracted using TF-IDF and then NaiveBayes is used to classify them. Both trained classifier and vectorizers are saved as [models.p](https://github.com/talhaanwarch/djagno_chat_bot_api/blob/main/code_ml/models.p) to used in online web app.
+
+## Django API part
+[This tutorial](https://towardsdatascience.com/productionize-a-machine-learning-model-with-a-django-api-c774cb47698c) helped a lot to create django API
+
+
+
+# Base API URL:
+https://autiskabot.herokuapp.com/api/
