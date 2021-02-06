@@ -24,3 +24,9 @@ It will generate result like this
 ```
 {"result": "Autism is a complex, lifelong developmental disability that typically appears during early childhood and can impact a person's social skills, communication, relationships, and self-regulation"}
 ```
+
+## Three important .txt files
+* runtime.txt->> python version installed, some time heroku doesnot support the version, so you can check [here](https://devcenter.heroku.com/articles/python-support)
+* requirements.txt->> python packages required
+* nltk.txt->> nltk corpus used, herko required this for working
+
