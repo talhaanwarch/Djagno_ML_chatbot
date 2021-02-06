@@ -16,4 +16,11 @@ The machine learning part is present in [code_ml](https://github.com/talhaanwarc
 
 
 # Base API URL:
-https://autiskabot.herokuapp.com/api/
+https://autiskabot.herokuapp.com/api/?question=
+
+Add the question to baseline such as 
+https://autiskabot.herokuapp.com/api/?question=What is autism 
+It will generate result like this
+```
+{"result": "Autism is a complex, lifelong developmental disability that typically appears during early childhood and can impact a person's social skills, communication, relationships, and self-regulation"}
+```
